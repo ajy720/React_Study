@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import MyName from './MyName';
+import Counter from './Counter';
 
 function App() {
 
   return (
-    <MyName name="ㅁㄴㅇ" />
+    <div className="coms">
+      <Counter />
+    </div>
   )
 }
 
