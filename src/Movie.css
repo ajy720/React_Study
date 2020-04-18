@@ -1,6 +1,6 @@
 .movies {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 50px;
@@ -8,6 +8,7 @@
 }
 
 .movies > .movie {
+  min-width: 400px;
   width: 45%;
   height: auto;
   margin-bottom: 70px;
@@ -51,6 +52,7 @@
 
 .genres {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 15px;
 }
 
