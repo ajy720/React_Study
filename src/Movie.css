@@ -1,0 +1,59 @@
+.movies {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px;
+  padding-top: 50px;
+}
+
+.movies > .movie {
+  width: 45%;
+  height: auto;
+  margin-bottom: 70px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: lightgray 5px 5px 10px;
+}
+
+.movie > * {
+  float: left;
+}
+
+.movie > img {
+  width: 25%;
+  margin: 0 2.5%;
+  max-width: 180px;
+  position: relative;
+  top: -35px;
+  box-shadow: lightgray 0px 0px 5px;
+}
+
+.movie > .movie__data {
+  width: 70%;
+  padding: 5px;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.movie__data > * {
+  margin-bottom: 5px;
+}
+
+.movie__title {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: black;
+}
+
+.movie__year {
+}
+
+.genres {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.genres__genre {
+  margin-right: 10px;
+}
