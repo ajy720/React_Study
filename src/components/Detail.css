@@ -1,0 +1,53 @@
+.detail {
+	display: flex;
+	padding: 50px;
+	padding-top: 50px;
+	padding-left: 150px;
+}
+
+.detail > * {
+	float: left;
+}
+
+.detail > img {
+	width: 25%;
+	margin: 0 2.5%;
+	max-width: 250px;
+	position: relative;
+	top: -35px;
+	box-shadow: lightgray 0px 0px 10px;
+}
+
+.detail > .movie__data {
+	width: 70%;
+	padding: 5px;
+	color: gray;
+	font-size: 1.6rem;
+}
+
+.detail .movie__data > * {
+	margin-bottom: 5px;
+}
+
+.detail .movie__title {
+	font-size: 3rem;
+	font-weight: 100;
+	color: black;
+}
+
+.detail .movie__year {
+}
+
+.detail .genres {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+}
+
+.detail .genres__genre {
+	margin-right: 10px;
+}
+
+.detail .movie__summary{
+  font-size: 1.4rem;
+}

@@ -5,9 +5,10 @@
   flex-wrap: wrap;
   padding: 50px;
   padding-top: 50px;
+  padding-left: 150px;
 }
 
-.movies > .movie {
+.movie {
   min-width: 400px;
   width: 45%;
   height: auto;
@@ -27,7 +28,7 @@
   max-width: 180px;
   position: relative;
   top: -35px;
-  box-shadow: lightgray 0px 0px 5px;
+  box-shadow: lightgray 0px 0px 10px;
 }
 
 .movie > .movie__data {
