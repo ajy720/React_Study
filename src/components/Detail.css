@@ -1,21 +1,5 @@
-.detail {
-	display: flex;
-	padding: 50px;
-	padding-top: 50px;
-	padding-left: 150px;
-}
-
 .detail > * {
 	float: left;
-}
-
-.detail > img {
-	width: 25%;
-	margin: 0 2.5%;
-	max-width: 250px;
-	position: relative;
-	top: -35px;
-	box-shadow: lightgray 0px 0px 10px;
 }
 
 .detail > .movie__data {
@@ -35,8 +19,6 @@
 	color: black;
 }
 
-.detail .movie__year {
-}
 
 .detail .genres {
 	display: flex;

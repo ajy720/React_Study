@@ -1,6 +1,7 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 import "./Detail.css";
+import styled from "styled-components";
 
 class Detail extends React.Component {
 	componentDidMount() {
@@ -19,7 +20,7 @@ class Detail extends React.Component {
 				},
 			} = this.props;
 			return (
-				<div className="detail">
+				<DetailPopup className="detail">
 					<img src={poster} alt={title} title={title}></img>
 					<div className="movie__data">
 						<h3 className="movie__title">{title}</h3>
@@ -33,12 +34,28 @@ class Detail extends React.Component {
 						</ul>
 						<p className="movie__summary">{summary}</p>
 					</div>
-				</div>
+				</DetailPopup>
 			);
 		} else {
 			return null;
 		}
 	}
 }
+
+const DetailPopup = styled.div`
+	display: flex;
+	padding: 50px;
+	padding-top: 50px;
+	padding-left: 150px;
+	${"> img"}{
+		width: 25%;
+		margin: 0 2.5%;
+		max-width: 250px;
+		position: relative;
+		top: -35px;
+		box-shadow: lightgray 0px 0px 10px;
+	}
+
+`
 
 export default Detail;
